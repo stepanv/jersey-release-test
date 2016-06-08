@@ -713,7 +713,7 @@
                 </property>
             </activation>
             <properties>
-                <skip.release.tests>-Dmaven.test.skip=true -Dskip.tests=true</skip.release.tests>
+                <release.tests.args>-Dskip.tests=true</release.tests.args>
                 <skip.tests>true</skip.tests>
             </properties>
         </profile>
