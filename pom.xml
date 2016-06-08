@@ -386,7 +386,7 @@
                     <configuration>
                         <mavenExecutorId>forked-path</mavenExecutorId>
                         <autoVersionSubmodules>true</autoVersionSubmodules>
-                        <preparationGoals>clean install</preparationGoals>
+                        <preparationGoals>${release.preparationGoals}</preparationGoals>
                         <pushChanges>false</pushChanges>
                         <useReleaseProfile>false</useReleaseProfile>
                         <arguments>${release.tests.args} ${release.arguments}</arguments>
@@ -1849,6 +1849,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <release.tests.args>-Dmaven.test.skip=false</release.tests.args>
+        <release.preparationGoals>clean install</release.preparationGoals>
         <skip.tests>false</skip.tests>
         <xdk.absolute.path />
         <surefire.security.argline />
