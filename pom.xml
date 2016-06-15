@@ -1898,6 +1898,7 @@
         <jaxb.api.version>2.2.7</jaxb.api.version>
         <jaxb.ri.version>2.2.7</jaxb.ri.version>
         <jaxrs.api.spec.version>2.0</jaxrs.api.spec.version>
+        <!-- teset -->
         <jaxrs.api.impl.version>2.0.1</jaxrs.api.impl.version>
         <jboss.logging.version>3.3.0.Final</jboss.logging.version>
         <jersey1.version>1.19</jersey1.version>
